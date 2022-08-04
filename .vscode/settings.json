@@ -18,5 +18,9 @@
         "titleBar.inactiveBackground": "#20c72499",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#20c724"
+    "peacock.color": "#20c724",
+    "cSpell.words": [
+        "giphy",
+        "Giphys"
+    ]
 }
