@@ -1,1 +1,9 @@
-/* BASIC STYLES HERE */
+
+.gif-bar{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.hide-scroll::-webkit-scrollbar{
+    display: none;
+}
