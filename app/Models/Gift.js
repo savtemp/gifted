@@ -6,16 +6,18 @@ export class Gift{
         this.id = data.id 
         this.tag = data.tag
         this.url = data.url
-        this.opened = data.opened || false
+        this.opened = true
     }
 
 
 
     get GiftTemplate(){
         return `
-        <div class="col-4">
-            <img class="img-fluid" src="${this.url}" alt="">
-            <h5 onclick="">${this.tag}</h5>
+        <div class="col-4 hero-img" onclick="">
+            <div class="${!this.opened ? 'disabled blackout' : ''}">
+                <img class="img-fluid" src="${this.url}" alt="">
+                <h5>${this.tag}</h5>
+            </div>
         </div>
         `
     }
